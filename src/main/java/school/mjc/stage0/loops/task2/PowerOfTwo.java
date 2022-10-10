@@ -9,7 +9,7 @@ public class PowerOfTwo {
        int a=1;
         System.out.println(a);
         for ( int i =0; i>power; i++ ){
-            System.out.println(a^2);
+            System.out.println(a*=2);
         }
     }
 
