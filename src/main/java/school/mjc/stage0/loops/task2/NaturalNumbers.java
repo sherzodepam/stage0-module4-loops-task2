@@ -4,8 +4,8 @@ public class NaturalNumbers {
     public void naturalNumbersPrinter(int lastPrinted) {
             int number=1;
             while(number<lastPrinted){
-                number++;
                 System.out.println(number);
+                number++;
 
             }
         }
